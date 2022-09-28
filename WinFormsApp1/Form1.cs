@@ -12,11 +12,11 @@ namespace WinFormsApp1
             try
             {
                 int a = int.Parse(textBox1.Text);
-                MessageBox.Show($"Ви ввели  число {a}");
+                MessageBox.Show($"Р’Рё РІРІРµР»Рё С‡РёСЃР»Рѕ {a}");
             }
             catch
             {
-                MessageBox.Show("Ви не ввели  число");
+                MessageBox.Show("Р’Рё РЅРµ РІРІРµР»Рё С‡РёСЃР»Рѕ");
             }
         }
     }
